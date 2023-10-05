@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.inner h2{
+    font-family: 'Satisfy', cursive;
+    
+
+}
+header{
+    background-color: palevioletred;
+    color: bisque;
+    text-align: center;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+
+
+}
+header h1:hover{
+    color: cadetblue;
+
+
+}
+
+nav{
+background-color: palevioletred;
+height:60px;
+display: flex;
+justify-content: center;
+align-items:center;
+position:sticky;
+top:0px;
+z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: flex;
+    margin: 20px;
+    color:rgb(82, 33, 43);
+
+}
+
+
+nav h1{
+    color: bisque;
+    
+}
+nav ul li a:hover{
+    color:rgb(26, 73, 161);
+}
+nav h1:hover{
+    color: cadetblue;
+}
+.overlay{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    color:rgb(244, 227, 207);
+    text-shadow: 1px 2px  4px rgb(250, 236, 219);
+    
+    
+
+    
+
+}
+div.row1{
+    display: flex;
+    background-color: bisque;
+    height: 200px;
+    margin-top: -5px;
+    width: 100%;
+}
+div.col1{
+    height: 100px;
+    width:100px;
+    margin: 10px;
+    text-align: center;
+    
+    
+    
+}
+
+
+div.row{
+    display: flex;
+    background-color:rgb(225, 107, 147);
+    height:500px;
+    
+    
+}
+
+.col{
+    height:450px;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    background-color:rgb(252, 196, 132) ;}
+
+.row2{
+    display: flex;
+    background-color:rgb(225, 107, 147);
+    height:500px;
+
+}
+.col4{
+    height:450px;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    background-color:rgb(252, 196, 132) ;}
+
+
+
+footer{
+    background-color: rgb(220, 85, 130);
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-top:-30px;
+    
+}
+footer h2{
+    color:bisque;
+
+
+}
+footer h3{
+    color:bisque;
+}
+footer p{
+    color: bisque;
+}
+footer p:hover{
+    color: rgb(116, 65, 163);
+
+}
+footer h2:hover{
+    color:green;
+}
+footer h3:hover{
+    color: cadetblue;
+}
+.col2{
+    width: 100px;
+    height: 100px;
+}
+h4{
+    color:cadetblue;
+}
+h5{
+    color: brown;
+}
+.col3{
+    width:200px;
+    height:200px;
+    margin: 20px;
+    text-align: center;
+
+}
+h3{
+    color: cadetblue;
+}
+p{
+    color: cadetblue;
+}
+button{
+    background-color: rgb(146, 67, 67);
+    color:black;
+}
+button:hover{
+    background-color:palevioletred;
+}
+@media screen and (max-width:400px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+nav{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}
+nav ul li a{
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+
+
+    
+
+    
+
+
+
+ div.row1{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+ div.col1{
+    padding: 10px;
+    padding-left: 150px;
+ }
+ h5{
+    padding-top: 10px;
+ }
+ div.row{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+ .col{
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
+ }
+ .row2{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+ }
+ .col4{
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
+ }
+
+ 
+
